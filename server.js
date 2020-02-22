@@ -1,3 +1,4 @@
+
 const express = require("express")
 const app = express()
 const router = express.Router()
@@ -70,3 +71,4 @@ db.sync()
     app.listen(port, () => console.log(`listening on port ${port}`))
   })
   .catch(ex => console.log(ex))
+
